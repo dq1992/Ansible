@@ -1,0 +1,9 @@
+---
+-hosts: 192.168.84.112
+ remote_user ansible
+ Tasks:
+    - name: Ping Test
+      ping: 
+      remote_user:
+      sudo: yes
+    
